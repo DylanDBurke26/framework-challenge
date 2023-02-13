@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face { 
+    font-family: 'NEON';
+    src: url('../MarqueeMoon.otf');
+}
+
+@font-face {
+    font-family: 'RETRO';
+    src: url('../neon-light.otf');
+}
