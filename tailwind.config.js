@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: { tattoo: "url('../sherman-yang-zOyOWsANHXo-unsplash.jpg" },
-      fontFamily: { neon: ['NEON'], retro: ['Retro']}
+      fontFamily: { neon: ['NEON'], retro: ['Retro']},
+      screens: { 'sm' : '450px'}
     },
   },
   plugins: [],
