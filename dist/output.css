@@ -778,12 +778,20 @@ video {
   height: 35rem;
 }
 
+.h-\[49rem\] {
+  height: 49rem;
+}
+
 .h-screen {
   height: 100vh;
 }
 
 .w-\[35rem\] {
   width: 35rem;
+}
+
+.w-\[49rem\] {
+  width: 49rem;
 }
 
 .w-screen {
@@ -1682,9 +1690,9 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-gray-800 {
+.bg-gray-900 {
   --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r {
@@ -2022,6 +2030,10 @@ video {
 
 .no-underline {
   text-decoration-line: none;
+}
+
+.decoration-white {
+  text-decoration-color: #fff;
 }
 
 .decoration-solid {
